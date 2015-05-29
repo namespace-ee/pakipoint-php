@@ -1,5 +1,5 @@
 {
-  "name": "namespace/beehive-php",
+  "name": "namespace/pakipoint-php",
   "description": "Pakipoint.ee API PHP client",
   "minimum-stability": "stable",
   "license": "proprietary",
