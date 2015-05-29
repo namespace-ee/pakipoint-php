@@ -1,0 +1,15 @@
+{
+  "name": "namespace/beehive-php",
+  "description": "Pakipoint.ee API PHP client",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Lenno Nagel",
+      "email": "lenno@namespace.ee"
+    }
+  ],
+  "require": {
+    "rmccue/requests": "v1.6.1"
+  }
+}
