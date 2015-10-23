@@ -6,18 +6,16 @@ Requests::register_autoloader();
 
 // settings
 $url_base = 'http://dev.pakipoint.ee/api/';
-$username = '';
-$password = '';
+$token = '3aa9a21e42ddb067b2caa023ffef4ccd';
 $account_code = '';
 
 $url_products = $url_base . 'products/';
 $headers = [
     'Accept' => 'application/json',
     'Content-Type' => 'application/json',
+    'Authorization' => 'Token ' . $token,
 ];
-$options = [
-    'auth' => new Requests_Auth_Basic([$username, $password]),
-];
+$options = [];
 
 // create or update product information
 $product_data = [
