@@ -5,7 +5,7 @@ include("../vendor/rmccue/requests/library/Requests.php");
 Requests::register_autoloader();
 
 // settings
-$url_base = 'http://dev.pakipoint.ee/api/';
+$url_base = 'https://dev.pakipoint.ee/api/';
 $token = '3aa9a21e42ddb067b2caa023ffef4ccd';
 $account_code = '';
 
